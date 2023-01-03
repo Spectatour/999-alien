@@ -5,27 +5,27 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 90%;
     overflow-x: hidden;
 }
-header{
+.container {
     background-color: #313A43;
     display: inline-block;
     width: 100%;
     margin: 0;
 }
-.img {
+.logo {
     width: 350px;
     height: 80px;
     object-fit: contain;
     object-position: left;
     float: left;
 }
-nav {
+.main-menu {
     float: right;
     margin-top: 17.5px;
 }
-nav > a {
+.main-menu > .mbutton {
     display: inline-block;
     margin: 0;
     margin-left: 2em;
@@ -49,25 +49,25 @@ main {
     display: inline-block;
     margin-top: 75px;
     margin-right: 50%;
-    margin-left: 15%;
+    margin-left: 20%;
     text-align: left;
 }
-main > img {
-    height: 450px;
+main > .pic {
+    height: 350px;
 }
-h1 {
+.main-title {
     color: white; 
     font-size: 42px;
 }
-p {
+.description {
     color: white;
     font-size: 32px;
 }
-footer {
+.directions {
     display: inline-block;
 
 }
-footer > a {
+.directions > .buttons {
     text-decoration: none;
     padding: 1em;
     font-size: 25px;
@@ -77,6 +77,6 @@ footer > a {
     float: left;
     margin: 0.2em;
 }
-footer > a:hover {
+.directions > .buttons:hover {
     box-shadow:0 0 3em red;
 }
